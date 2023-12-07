@@ -11,8 +11,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int vertpad            = 7;       /* vertical padding of bar */
 static const int sidepad            = 15;       /* horizontal padding of bar */
-static const int innerpad           = 10;       /* inner padding of bar */
-static const int underline	    = 0;
+static const int innerpad           = 10;       /* inner (vertical) padding of bar */
+static const int underline	    = 0;	/* underline title on currently selected monitor */
 static const char *fonts[]          = { "JetBrainsMono:size=12" };
 static const char dmenufont[]       = "JetBrainsMono:size=12";
 static const char col_gray1[]       = "#1e1e2e";
@@ -20,19 +20,20 @@ static const char col_gray2[]       = "#313244";
 static const char col_gray3[]       = "#1e1e2e";
 static const char col_gray4[]       = "#313244";
 static const char col_cyan[]        = "#cdd6f4";
-static const char col_crust[]	    = "#11111b";
-static const char col_blue[]	    = "#89b4fa";
-static const char col_rosewater[]   = "#f5e0dc";
+static const char col_crust[]	    = "#11111b"; // 
+static const char col_blue[]	    = "#89b4fa"; // A handful of catppuccin colours to swap in & out
+static const char col_rosewater[]   = "#f5e0dc"; //
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_cyan, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_cyan, col_gray2,  col_cyan  },
-	[SchemeTitl] = { col_blue, col_gray1, col_gray2 },
+	[SchemeTitl] = { col_blue, col_gray1, col_gray2 }, /* colour of the window title */
 };
 
 /* tagging */
 
 int tag_number = 5;
+static const char tag_chars[] = "⬤";
 static const char *tag_cols[] = { "#cba6f7", "#f38ba8", "#eba0ac", "#fab387", "#f9e2af" };
 static const char *tags[] = { "1", "2", "3", "4", "5"};
 
