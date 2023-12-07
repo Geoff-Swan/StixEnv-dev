@@ -30,7 +30,7 @@ static const char *colors[][3]      = {
 	[SchemeTitl] = { col_blue, col_gray1, col_gray2 }, /* colour of the window title */
 };
 
-/* tagging */
+/* tagging - define as many or as few tag colours as you like */
 
 int tag_number = 5;
 static const char tag_chars[] = "⬤";

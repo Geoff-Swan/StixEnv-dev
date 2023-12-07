@@ -850,8 +850,10 @@ drawbar(Monitor *m)
 	for (i = 0; i < tag_number; i++) {
 		w = TEXTW(tag_chars);
 		drw_setscheme(drw, scheme[m->tagset[m->seltags] & 1 << i ? SchemeSel : SchemeNorm]);
-
-		drw_clr_create(drw, &drw->scheme[ColFg], tag_cols[i]);
+		
+		if (tag_cols[i]) {
+			drw_clr_create(drw, &drw->scheme[ColFg], tag_cols[i]);
+		}
 
 		drw_text(drw, x, 0, w, bh, lrpad / 2, tag_chars, urg & 1 << i); 
 		if (occ & 1 << i)
