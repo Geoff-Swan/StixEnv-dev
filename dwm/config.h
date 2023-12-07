@@ -35,7 +35,6 @@ static const char *colors[][3]      = {
 int tag_number = 5;
 static const char tag_chars[] = "⬤";
 static const char *tag_cols[] = { "#cba6f7", "#f38ba8", "#eba0ac", "#fab387", "#f9e2af" };
-static const char *tags[] = { "1", "2", "3", "4", "5"};
 
 static const Rule rules[] = {
 	/* xprop(1):
