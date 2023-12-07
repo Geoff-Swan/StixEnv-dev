@@ -7,15 +7,14 @@ __This is very, *very* much a work in progress: use for reference, don't run in 
 
 
 ### A lightweight, beautiful environment:
-Ultimately, the goal is a spin on the 'suckless experience'; a slick set of tools that aims for something just a bit more special than the average DWM 'rice' while preserving that which makes suckless software great: simplicity, clarity, and frugality. _We are not there yet - not even close -_ and if you want a slick-looking DWM without the work, there's (CHADWM)[https://github.com/siduck/chadwm/]. It's better than this may ever get.
+Ultimately, the goal is a spin on the 'suckless experience'; a slick set of tools that aims for something just a bit more special than the average DWM 'rice' while preserving that which makes suckless software great: simplicity, clarity, and frugality. _We are not there yet - not even close -_ and if you want a slick-looking DWM without the work, there's [CHADWM](https://github.com/siduck/chadwm/). It's better than this may ever get.
 
-![alt text](screenshots/grid.png "Change the number of 'master' windows with [mod+i] and [mod+u] for flexible layouts")
 
-![alt text](screenshots/typical_usage.png "The Stix Environment uses the pure, built-in dwm bar with some custom hacks. Slstatus provides the statusbar itself and status2d adds a splash of colour")
+![alt text](screenshots/typical_usage.png) 
+_The Stix Environment uses the pure, built-in dwm bar with some custom hacks. Slstatus provides the statusbar itself and status2d adds a splash of colour_
 
-![alt text](screenshots/app_launcher.png "At the minute, StixEnv features a fairly typical dmenu build with the popular 'center' patch; this particular build also features an additional option to tune vertical position")
-
-![alt text](screenshots/app_launcher.png "The Stix Environment makes extensive use of dmenu to provide option menus and text prompts to control power, brightness, volume, and more")
+![alt text](screenshots/app_launcher.png) 
+_The Stix Environment features a fairly typical (albiet patched and customised) build of dmenu, and makes extensive use of dmenu to provide option menus and text prompts to control power, brightness, volume, and more"_
 
 _In its current state, this is not worth downloading and compiling; everything compiles and runs and you will (with all the files in the right place) have an environment that looks like the screenshots, but for what it's worth you're probably better-off patching and configuring your own DWM the way I did, and referring to my `config.h`-es to see at a glance the additional functionality I've coded in myself; if a certain feature piques your interest, search the source code for variables in `config.h` to find implementation details_
 
