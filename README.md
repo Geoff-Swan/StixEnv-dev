@@ -1,5 +1,9 @@
 # StixEnv: 
+<<<<<<< HEAD
 _(named for my preference to use linux as a persistent live installation on a USB stick for the sake of portability)_
+=======
+_(named for my preference to use linux as a persistent live installation on a USB stick for the sake of portability anywhere access speed isn't paramount)_
+>>>>>>> old/master
 
 ## (Basically just Geoff Swan's DWM environment; the suckless suite with a few patches [some custom, some not] for looks and feels)
 
