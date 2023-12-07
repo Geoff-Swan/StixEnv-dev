@@ -29,12 +29,12 @@ __StixEnv :: DWM__
 
 The Stix Environment uses DWM for the window manager, with a few alterations:
 
-    - The 'dot tag' tag / 'workspace' indicators are a custom addition found around line 850 in the souce code; they can be substituted for any character and soon users will have the ability to specify the character in `config.h`
-    - Tag indicators are now coloured with colours specified in config.h - this is a potential source of an out-of-range range as the code doesn't actually check to see if enough colours have been specified. This will change.
-    - Window titles and status bars display across all monitors; the window title is centred, and its colour can be specified in `config.h`
-    - Patches `vanitygaps` and `barpadding` space everything out a little, with the help of a couple of custom padding options exclusive to this build
-    - The `status2d` patch allows for (relatively) user-friendly colouring of both foreground and background in the status text
-    - I expect StixEnv::DWM to become the focal point for this environment, at least until I expand into other areas and build this out into a more complete DE with fully-custom tools: as a result, the custom DWM build will see lots of work!
+    * The 'dot tag' tag / 'workspace' indicators are a custom addition found around line 850 in the souce code; they can be substituted for any character and soon users will have the ability to specify the character in `config.h`
+    * Tag indicators are now coloured with colours specified in config.h - this is a potential source of an out-of-range range as the code doesn't actually check to see if enough colours have been specified. This will change.
+    * Window titles and status bars display across all monitors; the window title is centred, and its colour can be specified in `config.h`
+    * Patches `vanitygaps` and `barpadding` space everything out a little, with the help of a couple of custom padding options exclusive to this build
+    * The `status2d` patch allows for (relatively) user-friendly colouring of both foreground and background in the status text
+    * I expect StixEnv::DWM to become the focal point for this environment, at least until I expand into other areas and build this out into a more complete DE with fully-custom tools: as a result, the custom DWM build will see lots of work!
 
 __StixEnv :: dmenu__
 
