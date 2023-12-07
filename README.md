@@ -46,4 +46,4 @@ StixEnv::dmenu is a fairly standard build of dmenu; `center` confines the dmenu 
 
 - MORE TO COME (BOTH DOCS AND ACTUAL CODE) VERY SOON -
 
-LICENSING: The MIT/X Consortium License (under which Suckless software is licensed) permits sublicensing, and since MIT/X is a subset of GPL (as I understand it; I'm a child and not a lawyer) I did consider sublicensing under GPL because I like it but MIT is really straightforward and I really do not want to wander into actual legal territory regardless of how permissive and libre the metaphorical hornet's nest I'm poking may be. Everything here is under MIT/X Consortium.
+I DON'T UNDERSTAND LICENSING: The MIT/X Consortium License (under which Suckless software is licensed) permits sublicensing, and since MIT/X is a subset of GPL (as I understand it; I'm a child and not a lawyer), I did consider sublicensing under GPL because I like it but MIT is really straightforward and I really do not want to wander into actual legal territory regardless of how permissive and libre the metaphorical hornet's nest I'm poking may be. Everything here is under MIT/X Consortium.
